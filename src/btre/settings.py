@@ -44,7 +44,10 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'contacts.apps.ContactsConfig',
-    'accounts'
+    'accounts',
+    'basmoti',
+    'imgUpload'
+
 ]
 
 MIDDLEWARE = [

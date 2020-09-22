@@ -7,5 +7,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pages.urls')),
     path('listings/', include('listings.urls')),
+    path('basmoti/', include('basmoti.urls')),
+    path('imgupload/', include('imgUpload.urls')),
     path('account/', include('accounts.urls'))
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
